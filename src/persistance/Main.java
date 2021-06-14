@@ -97,11 +97,13 @@ public class Main {
                             new FileInputStream(monFichierXML)));
             ressultObj = (Zoo) d.readObject();
             d.close();
-        } catch (FileNotFoundException fileNotFoundException) {
-            fileNotFoundException.printStackTrace();
+        } catch (FileNotFoundException exception) {
+        	exception.printStackTrace();
+        	System.out.println("fichier inaccessible");
         }
-        catch (ArrayIndexOutOfBoundsException ) {
-        	ArrayIndexOutOfBoundsException.printStackTrace();
+        catch (ArrayIndexOutOfBoundsException exception) {
+        	exception.printStackTrace();
+        	System.out.println("Le format n'est pas XML");
         }
         return ressultObj;
     }
