@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="15.0.2" class="java.beans.XMLDecoder">
+ <object class="zoo.Zoo">
+  <void property="listeCg">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="enclos.EnclosStd">
+      <void property="hauteur">
+       <double>450.0</double>
+      </void>
+      <void property="largeur">
+       <double>500.0</double>
+      </void>
+      <void property="listeAnim">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object class="animaux.Ours">
+          <void property="name">
+           <string>Booba</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="animaux.Ours">
+          <void property="name">
+           <string>Kaaris</string>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void property="longueur">
+       <double>210.0</double>
+      </void>
+      <void property="nomCage">
+       <string>LG</string>
+      </void>
+      <void property="surface">
+       <int>180</int>
+      </void>
+      <void property="typeCage">
+       <string>Ouvert</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="enclos.EnclosStd">
+      <void property="hauteur">
+       <double>450.0</double>
+      </void>
+      <void property="largeur">
+       <double>500.0</double>
+      </void>
+      <void property="listeAnim">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object class="animaux.Ours">
+          <void property="name">
+           <string>RIMK</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="animaux.Ours">
+          <void property="name">
+           <string>PLK</string>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void property="longueur">
+       <double>210.0</double>
+      </void>
+      <void property="nomCage">
+       <string>BD</string>
+      </void>
+      <void property="surface">
+       <int>180</int>
+      </void>
+      <void property="typeCage">
+       <string>Ouvert</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
